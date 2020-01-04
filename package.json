@@ -1,26 +1,26 @@
 {
-  "name": "dev-connector",
+  "name": "devconnector",
   "version": "1.0.0",
   "description": "Social network for developers",
-  "main": "servers.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node server",
-    "server": "nodemon server"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
-  "author": "Christian Retana",
-  "license": "ISC",
+  "author": "Brad Traversy",
+  "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "config": "^3.2.4",
-    "express": "^4.17.1",
-    "express-validator": "^6.2.0",
-    "gravatar": "^1.8.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "gravatar": "^1.6.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.7.11",
-    "request": "^2.88.0"
+    "mongoose": "^5.8.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^9.4.1"
   },
   "devDependencies": {
-    "concurrently": "^5.0.0",
-    "nodemon": "^1.19.4"
+    "nodemon": "^1.17.3"
   }
 }
